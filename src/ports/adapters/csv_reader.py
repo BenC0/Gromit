@@ -5,5 +5,5 @@ import pandas as pd
 # `path` can be either relative or
 # absolute filepath and must be a string
 def open_csv(path):
-    csv = pd.read_csv(path, header=None, names=range(3))
+    csv = pd.read_csv(path)
     return csv
