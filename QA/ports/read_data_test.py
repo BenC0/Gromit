@@ -11,5 +11,5 @@ REL_TEST_FILEPATH = "../test_files/example-ga-export.csv"
 ABS_TEST_FILEPATH = os.path.abspath(REL_TEST_FILEPATH)
 
 df = csv_reader.open_csv(ABS_TEST_FILEPATH)
-dimensions = read_data.parse_dimensions(df)
+dimensions = read_data.parse_dimension(df)
 print(dimensions)
