@@ -7,5 +7,5 @@ from pptx import Presentation
 # `path` can be either relative or
 # absolute filepath and must be a string
 # returns a Presentation object
-def create_presentation(path):
+def create_template(path):
     return Presentation(path)
