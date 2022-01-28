@@ -13,3 +13,6 @@ ABS_TEST_FILEPATH = os.path.abspath(REL_TEST_FILEPATH)
 df = csv_reader.open_csv(ABS_TEST_FILEPATH)
 dimensions = read_data.parse_dimension(df)
 print(dimensions)
+
+divisor = read_data.parse_divisor(df)
+print(divisor)
